@@ -14,6 +14,8 @@
 		C33FDCC31EF2AE820086FE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33FDCC11EF2AE820086FE14 /* LaunchScreen.storyboard */; };
 		C33FDCCE1EF2AE820086FE14 /* GalileoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33FDCCD1EF2AE820086FE14 /* GalileoTests.swift */; };
 		C33FDCD91EF2AE820086FE14 /* GalileoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33FDCD81EF2AE820086FE14 /* GalileoUITests.swift */; };
+		C33FDCE71EF2AEC70086FE14 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C33FDCE61EF2AEC70086FE14 /* splash.png */; };
+		C33FDCEB1EF2D0230086FE14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33FDCEA1EF2D0230086FE14 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C33FDCD41EF2AE820086FE14 /* GalileoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalileoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33FDCD81EF2AE820086FE14 /* GalileoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalileoUITests.swift; sourceTree = "<group>"; };
 		C33FDCDA1EF2AE820086FE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33FDCE61EF2AEC70086FE14 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../../../../Users/chic/Downloads/splash.png; sourceTree = "<group>"; };
+		C33FDCEA1EF2D0230086FE14 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		C33FDCB71EF2AE810086FE14 /* Galileo */ = {
 			isa = PBXGroup;
 			children = (
+				C33FDCE61EF2AEC70086FE14 /* splash.png */,
 				C33FDCB81EF2AE820086FE14 /* AppDelegate.swift */,
 				C33FDCBA1EF2AE820086FE14 /* ViewController.swift */,
+				C33FDCEA1EF2D0230086FE14 /* MainViewController.swift */,
 				C33FDCBC1EF2AE820086FE14 /* Main.storyboard */,
 				C33FDCBF1EF2AE820086FE14 /* Assets.xcassets */,
 				C33FDCC11EF2AE820086FE14 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33FDCE71EF2AEC70086FE14 /* splash.png in Resources */,
 				C33FDCC31EF2AE820086FE14 /* LaunchScreen.storyboard in Resources */,
 				C33FDCC01EF2AE820086FE14 /* Assets.xcassets in Resources */,
 				C33FDCBE1EF2AE820086FE14 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33FDCEB1EF2D0230086FE14 /* MainViewController.swift in Sources */,
 				C33FDCBB1EF2AE820086FE14 /* ViewController.swift in Sources */,
 				C33FDCB91EF2AE820086FE14 /* AppDelegate.swift in Sources */,
 			);
